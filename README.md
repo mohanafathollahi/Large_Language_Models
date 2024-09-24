@@ -7,8 +7,8 @@ attention map: it can illustrate the attention weights between each word and eve
 <img src="Images/attention_map" alt="patching" width="500"/><br>
 we can see that the connection between word student and exam is stonger than conction between studnet and other words. It is called self attention.<br>
 
-## Different types of transformer models:**
-###**Encoder models:**
+## Different types of transformer models:
+### Encoder models:
 Input and output sequence has the same length.
 Popular model for encoder only model is BERT.
 Encoder model outputs numerical representation of each word. It will give sequance number per word. This numerical representation called feature vector or feature tensor. The dimension of vectors are defined by the architecture of the model. For the BERTs model it is 768. This representation contains value of the word but contextcualized. Each word in a sequence affects other words in the sentence. This vector representation of a word hold the meaning of a word within the text. It is related to self attention mecahnism.
@@ -19,7 +19,7 @@ Encoder models are well suited for tasks requiring an understanding of the full 
 -- Masked Language Modeling (MLM). Encoder with bi-directional context are good at guessing words in the middle of senetence. Sometimes without having information in the right side of a word, it is hard to figure out the missing word. Therefore, it requires semantic understanding as well as syntactic understanding.
 -- Natural language understanding.
 
-###**Decoder model:**
+### Decoder model:
 Popular decoder model include GPT models like Bloom, Jurassic, Lama.
 What is the difference between decoder and encoder; <br>
 Decoder can see the words on their left side and the words in its right side are hidden. (unidirectional)
@@ -28,7 +28,7 @@ Use cases of decoder:
 -- Causal tasks such as generation sequance.
 -- Natural language generation.
 
-###**Encoder-Decoder model:**
+### Encoder-Decoder model:
 Input and output sequence can have different length.
 Popular model in this group are T5 and BART.
 Some use cases:
