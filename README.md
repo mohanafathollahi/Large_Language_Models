@@ -44,6 +44,6 @@ Some use cases:
  -Context window: space or memory that is avilable to the prompt.<br>
  -Completion: output of the LLM model. It consists of prompt and generated text.<br>
  -Infereance: act of using the model to generate text.<br>
-<img src="Images/main_structure" alt="patching" width="500"/><br>
+<img src="Images/main_structure.png" alt="patching" width="500"/><br>
 # Prompt Engineering
 
