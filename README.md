@@ -46,3 +46,4 @@ Some use cases:
  -Infereance: act of using the model to generate text.<br>
 <img src="Images/prompt_completion" alt="patching" width="500"/><br>
 # Prompt Engineering
+
