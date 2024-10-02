@@ -64,7 +64,9 @@ Models with more parameters capable more of understanding the language.
 Smaller model are good at small number of tasks.
 
 # Configuration parameter
-
+Model parameter that can affect the output during inference, which is called inference configuration parameter.
+-- Max new token: limit the number of token that model can generate. In another word putting capacity on the number of times the model will go through the selection process.
+-- 
 These parameters are invoked at inference time. Such as maximum number of tokens in the completion and how creative the p=output is. 
 after softmax transformer, we can have a probablity for all words in the dictionary.
 One popular approach to generate next word is greedy decoding.
