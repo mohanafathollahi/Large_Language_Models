@@ -1,10 +1,10 @@
 # Large_Language_Models
 #Introduction
 Text generation before transformer, limited to RNN. RNN has a problem because it is limited to some few words to predcit new words and in some cases limiting to only few words was not enough for prediction. Model needs to have understanding of the whole sentence or even whole document. The novel approaced called transformer unlock the progress in generativeAI. It can be scaled efficiently to use multi-core GPUs, it can parallel process input input and make using of much larger training data, most importantly it can pay attention to meaning of the word its processing.<br>
-The power of the transformer architecture is learning the relevance and context of all of the words in a sentence. It consider every other word in a sentence not just neighbor words. With applyng attention weight that model learns the relevance of each word to each other word no matter where there are in the input.
+The power of the transformer architecture is learning the relevance and context of all of the words in a sentence. It consider every other word in a sentence not just neighbor words. With applyng attention weight, model learns the relevance of each word to each other word no matter where there are in the input.
 How can we learned these attention weights? these attention weights learned during LLM training.
 attention map: it can illustrate the attention weights between each word and every other word.
-<img src="Images/attention_map" alt="patching" width="500"/><br>
+<img src="Images/attention_map" alt="patching" width="500"/>
 we can see that the connection between word student and exam is stonger than conction between studnet and other words. It is called self attention.<br>
 
 ## Different types of transformer models:
